@@ -583,6 +583,11 @@
         ESF_STATUS = 0x1010,
 
         /// <summary>
+        /// ESF-INS message
+        /// </summary>
+        ESF_INS = 0x1015,
+
+        /// <summary>
         /// MGA-GPS message
         /// </summary>
         MGA_GPS = 0x1300,
