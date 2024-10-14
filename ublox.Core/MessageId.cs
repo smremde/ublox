@@ -380,7 +380,7 @@
         /// <summary>
         /// CFG-HNR message
         /// </summary>
-        CFG_HNR = 0x0655,
+        CFG_HNR = 0x065C,
 
         /// <summary>
         /// CFG-PWR message
@@ -695,6 +695,16 @@
         /// <summary>
         /// HNR-PVT message
         /// </summary>
-        HNR_PVT = 0x2800
+        HNR_PVT = 0x2800,
+
+        /// <summary>
+        /// HNR-ATT message
+        /// </summary>
+        HNR_ATT = 0x2801,
+
+        /// <summary>
+        /// HNR-INS message
+        /// </summary>
+        HNR_INS = 0x2802
     }
 }

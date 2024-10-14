@@ -4,7 +4,7 @@ using ublox.Core.Messages.Enums;
 
 namespace ublox.Core.Messages
 {
-    public class EsfIns : PacketPayload
+    public class HnrIns : PacketPayload
     {
         [FieldOrder(0)]
         public uint Bitfield0 { get; set; }
