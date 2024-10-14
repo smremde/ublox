@@ -36,7 +36,7 @@ namespace ublox.Core
         [Subtype(nameof(MessageId), MessageId.HNR_INS, typeof(HnrIns))]
         [Subtype(nameof(MessageId), MessageId.HNR_INS, typeof(HnrInsPoll), BindingMode = BindingMode.OneWayToSource)]
         [Subtype(nameof(MessageId), MessageId.HNR_ATT, typeof(HnrAtt))]
-        [Subtype(nameof(MessageId), MessageId.HNR_INS, typeof(HnrAttPoll), BindingMode = BindingMode.OneWayToSource)]
+        [Subtype(nameof(MessageId), MessageId.HNR_ATT, typeof(HnrAttPoll), BindingMode = BindingMode.OneWayToSource)]
         [Subtype(nameof(MessageId), MessageId.ESF_STATUS, typeof(EsfStatus))]
         [Subtype(nameof(MessageId), MessageId.ESF_STATUS, typeof(EsfStatusPoll), BindingMode = BindingMode.OneWayToSource)]
         [Subtype(nameof(MessageId), MessageId.ESF_INS, typeof(EsfIns))]
